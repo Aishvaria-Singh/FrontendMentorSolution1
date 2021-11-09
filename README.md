@@ -1,3 +1,5 @@
+https://aishvaria-singh.github.io/FrontendMentorSolution1/ //Tap here to view live
+
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
