@@ -33,11 +33,23 @@
       <button class="btn btn-change">Change</button>  
     </div>
   
-    
+    <script>
+      function proceedToPayment() {
+        alert("Redirecting to payment gateway...");
+      }
+      function confirmCancellation(){
+        const confirmed = confirm("Are you sure want to cancel the order?");
+        if (confirmed){
+          alert("Order has been cancelled");
+        } else {
+          alert("Order Cancellation aborted.");
+        }
+      }
+    </script>
   
    <div class="buttons">
-    <button class="btn btn-primary">Proceed to Payment</button>
-    <button class="btn btn-secondary">Cancel Order</button>
+    <button class="btn btn-primary" onClick="proceedToPayment()">Proceed to Payment</button>
+    <button class="btn btn-secondary" onClicke="confirmCancellation()">Cancel Order</button>
   </div>
 
   </div>
@@ -45,7 +57,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Aishwarya</a>.
   </div>
 </body>
 </html>
